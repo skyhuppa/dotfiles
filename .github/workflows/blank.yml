@@ -17,8 +17,8 @@ jobs:
         ls
         chmod a+x temp.sh
         bash temp.sh
-        chmod 777 PostInstall.sh
+        chmod +x PostInstall.sh
         ./PostInstall.sh
-        chmod 777 build-github-actions-kernel.sh
+        chmod +x build-github-actions-kernel.sh
         ./build-github-actions-kernel.sh
       
